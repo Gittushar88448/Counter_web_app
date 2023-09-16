@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper{
+    width: 100vw;
+    height: 100vh;
+    background-color: #344151;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter-box{
+    display: flex;
+    flex-direction: column;
+    /* position: relative; */
+    gap: 18px;
+}
+
+.heading{
+    color: #0398d4;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.main_box{
+    display: flex;
+    background-color: white;
+    font-size: 25px;
+    position: relative;
+    justify-content: space-between;
+    color: #344151;
+    border-radius: 2px;
+    gap: 12px;
+    /* padding: 0px 5px 0px 5px; */
+}
+
+.increment i{
+    padding: 6px;
+}
+
+.decrement{
+    width: 60px;
+}
+
+.increment{
+    width:60px;
+}
+
+
+.value{
+    padding-top: 5px;
+}
+
+.decrement, i{
+    padding: 6px;
+}
